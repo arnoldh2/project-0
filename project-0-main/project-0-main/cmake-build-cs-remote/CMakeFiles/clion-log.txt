@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/a/arnoldh2/tmp/tmp.qhGPen3q7A
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /users/guest/a/arnoldh2/tmp/tmp.qhGPen3q7A/cmake-build-cs-remote
