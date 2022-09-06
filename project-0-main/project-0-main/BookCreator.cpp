@@ -10,6 +10,7 @@ BookCreator::BookCreator(std::ifstream& input) {
     while (!input.eof()) {
         getline(input, line);
         //Remove \r character
+//        //todo comment back out
 //        if (!line.empty())
 //        {
 //            line.pop_back();
@@ -60,10 +61,8 @@ Book* BookCreator::createBook() {
                 throw "Author can not be set twice for the same book.";
             }
             else if (check(info, Info::GENRE)) {
-                if (book->hasGenre()) {
-                    throw "Genre can not be set twice for the same book.";
-                }
-                book->setGenre(info.getInfo());
+                //changed code to match the others
+                throw "Genre can not be set twice for the same book.";
             }
             else if (check(info, Info::HOURS)) {
                 if (book->hasHours()) {
