@@ -9,14 +9,11 @@ BookCreator::BookCreator(std::ifstream& input) {
     std::string line;
     while (!input.eof()) {
         getline(input, line);
-<<<<<<< HEAD
         //Remove \r character
         if (!line.empty())
         {
             line.pop_back();
         }
-=======
->>>>>>> 3296409e4fb5b5b520968cbe0978570cce0dbc1c
         inputLines.push_back(line);
     }
     currLineIdx = 0;
@@ -29,7 +26,7 @@ Book* BookCreator::createBook() {
     Book* book = nullptr;
     while (currLineIdx < inputLines.size()) {
 
-       std::string currLine = inputLines.at(currLineIdx);
+        std::string currLine = inputLines.at(currLineIdx);
 
         // if this line consists only of white space, skip to the next line
         bool isSpace = true;
@@ -72,12 +69,8 @@ Book* BookCreator::createBook() {
                 if (book->hasHours()) {
                     throw "Hours can not be set twice for the same book.";
                 }
-<<<<<<< HEAD
                 //Changed Pages to Hours
                 book->setHours(info.getInfo());
-=======
-                book->setPages(info.getInfo());
->>>>>>> 3296409e4fb5b5b520968cbe0978570cce0dbc1c
             }
             else if (check(info, Info::PAGES)) {
                 if (book->hasPages()) {
@@ -127,3 +120,4 @@ void BookCreator::match(Info info, Info::InfoType infoType) {
 bool BookCreator::check(Info info, Info::InfoType infoType) {
     return info.getType() == infoType;
 }
+

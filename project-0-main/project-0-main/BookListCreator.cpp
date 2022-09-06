@@ -12,9 +12,5 @@ std::vector<Book*> BookListCreator::createBookList() {
         Book* book = bookCreator.createBook();
         bookList.push_back(book);
     }
-<<<<<<< HEAD
-        return bookList;
-=======
     return bookList;
->>>>>>> 3296409e4fb5b5b520968cbe0978570cce0dbc1c
 }

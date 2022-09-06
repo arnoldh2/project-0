@@ -83,10 +83,7 @@ bool Book::hasHours() {
 std::string Book::toString() const {
     std::ostringstream output;
     output << title << " by " << author;
-<<<<<<< HEAD
 //    std::cout << "(" << title << "|" << author << ")" << std::endl;
-=======
->>>>>>> 3296409e4fb5b5b520968cbe0978570cce0dbc1c
     return output.str();
 }
 
