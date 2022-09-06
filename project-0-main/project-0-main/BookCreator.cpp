@@ -10,10 +10,10 @@ BookCreator::BookCreator(std::ifstream& input) {
     while (!input.eof()) {
         getline(input, line);
         //Remove \r character
-        if (!line.empty())
-        {
-            line.pop_back();
-        }
+//        if (!line.empty())
+//        {
+//            line.pop_back();
+//        }
         inputLines.push_back(line);
     }
     currLineIdx = 0;
