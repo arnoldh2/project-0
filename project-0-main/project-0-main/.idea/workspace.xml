@@ -12,7 +12,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9da4651-a564-4575-bc4b-f7b4013a6257" name="Changes" comment="add initial files" />
+    <list default="true" id="a9da4651-a564-4575-bc4b-f7b4013a6257" name="Changes" comment="add initial files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Book.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCreator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BookCreator.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +28,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:CS Remote" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2EH14hrz7a1CFhpL91cT3gMbYit" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +47,7 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
-    <configuration name="project_0_main" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab0PassOffCases/input2.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_0_main" TARGET_NAME="project_0_main" CONFIG_NAME="CS Remote" RUN_TARGET_PROJECT_NAME="project_0_main" RUN_TARGET_NAME="project_0_main">
+    <configuration name="project_0_main" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab0PassOffCases/input1.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_0_main" TARGET_NAME="project_0_main" CONFIG_NAME="CS Remote" RUN_TARGET_PROJECT_NAME="project_0_main" RUN_TARGET_NAME="project_0_main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -74,7 +75,7 @@
       <workItem from="1662426835166" duration="326000" />
       <workItem from="1662427239154" duration="15488000" />
       <workItem from="1662488811951" duration="2265000" />
-      <workItem from="1662492331493" duration="1793000" />
+      <workItem from="1662492331493" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files">
       <created>1662441236987</created>
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662493024701</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add initial files">
+      <created>1662496821976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496821976</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,11 +166,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/BookCreator.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="30" />
+          <url>file://$PROJECT_DIR$/Book.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="genreSet" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
